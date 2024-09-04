@@ -108,12 +108,12 @@ body {
 
 .wrapper input {
   width: 100%;
-  padding-right: 120px; /* Space for the button */
+  padding-right: 120px; 
   background: transparent;
   border-radius: 10px;
   border: 2px solid #fffcfc;
   padding: 15px;
-  box-sizing: border-box; /* Ensure padding doesn't affect width */
+  box-sizing: border-box;
 }
 
 .wrapper button {
@@ -150,7 +150,7 @@ body {
   background-color: #262525;
   padding: 1rem;
   border-radius: 8px;
-  text-align: center;
+  text-align:left;
   width: 30%;
 }
 
@@ -161,4 +161,5 @@ body {
 
 .feature p {
   font-size: 1rem;
+  color: rgb(120, 107, 107);
 }
