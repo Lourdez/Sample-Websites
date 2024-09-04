@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #191919;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.navbar {
+  background-color: #191919;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  color: #ed1010;
+}
+
+.nav-list li {
+  margin: 0 15px;
+  
+}
+
+.nav-list li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+/* .nav-list li a:hover {
+  background-color: #575757;
+  border-radius: 5px;
+}
+
+.nav-right .btn {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-left: 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+} */
+
+.nav-right .login {
+  /* background-color: #575757; */
+  background-color:transparent;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: green;
+  color: white;
+
+
+  /* color: rgb(255, 255, 255); */
+}
+
+.nav-right .signup {
+  /* background-color: #1abc9c; */
+  background-color: #0beb12;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 10px;
+  color: black;
+}
+
+.Win{
+  color:  #0beb12 ;
+  text-align: center;
+  font-size: 100px;
+  margin-bottom: -5px;
+}
+.with{
+  color: white;
+  
+}
+
+.sub{
+  color: rgb(59, 56, 56);
+  text-align: center;
+  
+  justify-content: center;
+}
