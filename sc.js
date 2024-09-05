@@ -206,7 +206,7 @@ var aa = {
         city: "city1",
     }
 }
-
+ 
 let bb = JSON.parse(JSON.stringify(aa))
 
 bb.age = 24

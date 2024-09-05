@@ -409,3 +409,88 @@ button {
   border-color: #0beb12;
   font-size: 16px;
 }
+
+/* sixth page  */
+.sixtpage{
+  background-color: #6de754;
+  text-align: center;
+  color: #000000;
+}
+
+.sixtpage h1{
+  font-size: 80px;
+  color: #000000;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+.copy{
+  font-size: 20px;
+  color: #000000;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 0;
+}
+.line { 
+
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #000000;
+  /* margin: 1em 0; */
+  padding-top: 0;
+  margin-left: 80px;  
+  margin-right: 80px;  
+} 
+.sixtpage p{
+  font-size: 20px;
+  color: #282222;
+  margin-top: 0;
+}
+.sixtpage button{
+  color: #282222;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+/* sixth page container  */
+.verticalcon6 {
+  font-family: 'Arial', sans-serif;
+  background-color:#6de754;
+  color: #fff;
+  margin-top: 0;
+  padding: 0;
+  border-top: 0px;
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+}
+.container6 {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.features6 {
+  background-color: transparent;
+  padding: 60px;
+  border-radius: none;
+  
+  text-align: left;
+  width: 30%;
+}
+
+.features6 h2 {
+  color: #000000;
+
+}
+
+.features6 p {
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+  line-height: 1.;
+}
+
+.features6   ul li{
+  list-style-type: none;
+  margin-right: 100px;
+  color: #000000;
+}
